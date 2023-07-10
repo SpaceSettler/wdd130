@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&family=Rubik+Glitch&display=swap');
+.hero div {
+	position: relative;
+}
+.hero img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.hero h1 {
+	position: absolute;
+	top: 30rem;
+	left: 300rem;
+}
+.hero article {
+	position: absolute;
+	top: 4rem;
+	left: 40rem;
+}
+.hero article img {
+	float: right;
+}
