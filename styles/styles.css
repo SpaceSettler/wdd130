@@ -32,6 +32,7 @@ h1 {
 main {
     margin: 0 auto;
     grid-column: 2/3;
+    color: yellow;
 }
 aside {
     width: 20em;
