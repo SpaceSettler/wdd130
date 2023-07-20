@@ -1,5 +1,5 @@
 * {
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body {
@@ -40,4 +40,8 @@ button {
     margin: 18px;
     background-color: black;
     color: crimson;
+}
+button:hover {
+    background-color: white;
+    color: blue;
 }
