@@ -1,0 +1,43 @@
+* {
+    font-size: 1.3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: black;
+}
+header {
+    font-size: 1.7em;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: crimson;
+}
+fieldset {
+    display: grid;
+    width: 750px;
+    margin: 0 auto;
+    padding: 2px;
+    font-size: .5em;
+    background-color: crimson;
+    color: black;
+    border: none;
+}
+.item-form {
+    text-align: left;
+    padding: 2px;
+    display: grid;
+}
+.item-form img {
+    margin: 0 auto;
+    padding: 2px 0 4px 0;
+}
+label, input, select, textarea, button {
+    padding: 3px;
+}
+input, select, textarea {
+    width: 400px
+}
+button {
+    margin: 18px;
+    background-color: black;
+    color: crimson;
+}
