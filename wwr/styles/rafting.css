@@ -15,14 +15,15 @@
 body {
 	font-family: var(--paragraph-font);
 	max-width: 960px;
-	padding: 20px
+	padding: 20px;
 }
-
 h1, h2, h3, h4, h5, h6 {
 	font-family: var(--heading-font);
 	color: var(--primary-color);
 }
-
+h2 {
+	clear: both;
+}
 header {
 	padding: 20px;
 	max-width: 920px;
@@ -115,11 +116,51 @@ section h2 {
 	grid-column-end: 6;
 }
 .sociallinks {
-	width: 150px;
 	height: 50px;
 	float: right;
 }
 .sociallinks img {
 	width: 20px;
 	height: auto;
+}
+.info {
+	padding: 0 0 60px 0;
+}
+.info iframe {
+	float: left;
+	width: 400px;
+	height: 300px;
+	padding: 0 30px;
+}
+#know {
+	text-align: center;
+}
+.figures figure {
+	float: left;
+}
+.figures img {
+	width: 150px;
+	height: 130px;
+}
+#formback {
+	width: 960px;
+	height: 388px;
+}
+form {
+	width: 420px;
+	position: absolute;
+	top: 783px;
+	background-color: rgba(244, 91, 105, 0.8);
+	padding: 0 0 0 10px;
+	display: grid;
+}
+fieldset {
+	display: grid;
+}
+#checkbox {
+	font-size: .7em;
+}
+legend {
+	font-size: 1.4em;
+	font-family: var(--heading-font)
 }
